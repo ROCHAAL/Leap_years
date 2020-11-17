@@ -1,3 +1,5 @@
 def leap_years(input_year)
-  return true 
+    if input_year % 400 == 0
+      return true
+    end
 end
